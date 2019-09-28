@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ProjectUAS_00000015499</string>
+
+    <string name="title">Lionissa\'s News | ProjectUAS </string>
+    <string name="username_title">Enter your username</string>
+    <string name="username_hint">Username</string>
+    <string name="password_title">Enter your password</string>
+    <string name="password_hint">Password</string>
+    <string name="login">Login</string>
+    <string name="about">About This Apps</string>
+    <string name="logout">Logout</string>
+
+    <string name="about_title">ABOUT THIS PROJECT</string>
+    <string name="about_a1">This project is created for:</string>
+    <string name="about_a2">Pemrograman Aplikasi Mobile (IF633-EL) - UAS</string>
+    <string name="about_a3">This project is created by:</string>
+    <string name="about_a4">Lionissa Ratnawati Darmawan - 00000015499</string>
+    <string name="about_b1">This project is powered by: NewsAPI.org</string>
+    <string name="about_c1">REFERENCES USED:</string>
+    <string name="about_c2">1. Modul Pemrograman Mobile Week 07 - SQLite</string>
+    <string name="about_c3">2. Modul Pemrograman Mobile Week 05 - Recycler View &amp; Card View</string>
+    <string name="about_c4">3. Modul Pemrograman Mobile Week 09</string>
+    <string name="about_c5">4. GitHub | Top-10-News-Of-The-Day by itsSiddhartGupta</string>
+    <string name="about_c6">5. GitHub | test_news by JEEricsson</string>
+    <string name="about_c7">6. GitHub | picasso by square</string>
+    <string name="about_c8">7. StackOverflow | Calling web API and Receive return value in Android</string>
+    <string name="about_c9">8. StackOverflow | java.lang.IllegalArgumentException: Path must not be empty in Picasso</string>
+    <string name="about_c10">9. Android Authority | How to create a simple Android notification</string>
+    <string name="about_c11">10. Coderanch.com | Getting a string from an intent, getting null object reference error?</string>
+    <string name="about_c12">11. StackOverflow | Android: I need to delay a Notification</string>
+    <string name="about_d1">ADDITIONAL LIBRARIES USED:</string>
+    <string name="about_d2">1. AsyncTask</string>
+    <string name="about_d3">2. CardView &amp; RecyclerView</string>
+    <string name="about_d4">3. SQLiteOpenHelper &amp; SQLiteDatabase</string>
+    <string name="about_d5">4. Picasso</string>
+    <string name="about_d6">5. NotificationManager </string>
+    <string name="about_d7">6. PendingIntent</string>
+    <string name="about_d8">7. Html</string>
+    <string name="about_d9">8. LinkMovementMethod</string>
+
+</resources>

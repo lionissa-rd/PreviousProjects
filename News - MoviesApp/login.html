@@ -1,0 +1,33 @@
+        <div class = "container"> 
+            <h2 style = "margin-top: 220px; color: RGB(83, 86, 90);">a <strong>login page</strong> that welcomes you</h2>
+            <br><hr><br>
+
+            <form class = "form-horizontal">
+                <div class = "form-group">
+                    <label for = "inputUsername" class = "col-sm-4 control-label" title = "Input your Username" style = "color: RGB(83, 86, 90);">Username</label>
+                    <div class = "col-md-5">
+                        <input type = "text" class = "form-control" id = "inputUsername" placeholder = "Username" ng-model = "username">
+                    </div>
+                </div>
+               
+                <div class = "form-group">
+                    <label for = "inputPassword" class = "col-sm-4 control-label" title = "Input your Password" style = "color: RGB(83, 86, 90);">Password</label>
+                    <div class = "col-md-5">
+                        <input type = "password" class = "form-control" id = "inputPassword" placeholder = "Password" ng-model = "password">
+                    </div>
+                </div>
+
+                <div class = "form-group">
+                    <div class = "col-sm-offset-8 col-sm-4">
+                        <button type = "submit" class = "btn btn-default" ng-click = "authorising()">Sign In</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    <footer>
+        <div id = "customfooter">
+            <h6 style = "margin-top: 250px;">made with love by <em>lionissa r.d</em>.<br>powered by AngularJS and Bootstrap - 2018.</h6>
+        </div>
+    </footer>

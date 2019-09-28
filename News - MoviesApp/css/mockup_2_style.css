@@ -1,0 +1,243 @@
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+body
+{
+    font-family: 'Rubik', sans-serif;
+    background-image: url("../img/gridgrid2.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron{
+    background-color: RGBA(180, 33, 33, 0.8);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.aboutbody
+{
+    background-color: RGB(119, 64, 46);
+}
+
+.aboutpagedetails
+{
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: RGBA(209, 46, 40, 0.3);*/
+    /*background-color: RGBA(255, 150, 43, 0.9);*/
+    background-color: RGBA(255, 128, 56, 0.9);
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+#titlelibrary
+{
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    word-spacing: 2px;
+}
+
+.aboutpagelibraries
+{
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: RGBA(199, 68, 42, 0.3);*/
+    background-color: RGBA(244, 118, 45, 0.9);
+    padding: 5px;
+    margin-top: 1,5px;
+    position: relative;
+}
+
+.imageonabout
+{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay
+{
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .7s ease;
+    background-color: RGB(198, 187, 188);
+}
+
+.overtext
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.aboutpagedetails:hover .overlay
+{
+    opacity: 0.6;
+}
+
+#detailblock
+{
+    padding: 5px;
+    font-size: 18px;
+}
+
+#detailblock a
+{
+    color: RGB(115, 56, 29);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#detailblock a:hover
+{
+    color: RGB(255, 103, 31);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#detailblock #fontstyle1
+{
+    font-family: 'Rubik', sans-serif;
+}
+
+#detailblock #fontstyle2
+{
+    font-family: 'Sarala', sans-serif;
+}
+
+#detailblock #fontstyle3
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+#detailblock #fontstyle4
+{
+    font-family: 'Cabin', sans-serif;
+}
+
+#detailblock .media-object
+{
+    margin: auto;
+    float: left;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+#customfooter h6
+{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+}
+
+#customfooter h6:hover
+{
+    color: RGB(177, 179, 179);
+}
+
+#moviedetailspage
+{
+    background-color: RGBA(217, 217, 217, 0.8);
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#moviedetailspage #movietitle
+{
+    font-family: "Cabin", sans-serif;
+}
+
+#moviedetailspage button
+{
+    margin-left: 190px;
+    display: block;
+}
+
+#mockupbutton
+{
+    background-color: RGB(203, 44, 48);
+    border-color: RGB(203, 44, 48);
+}
+
+#mockupbutton:hover
+{
+    background-color: RGB(214, 67, 72);
+}
+
+#hername:hover
+{
+    color:  RGB(203, 44, 48);
+}
+
+/*About Me Page: Pantone's Color Links*/
+
+#pantone-1505-U a:hover
+{
+    color: RGB(255, 128, 56);
+}
+
+#pantone-3564-U a:hover
+{
+    color: RGB(244, 118, 45);
+}
+
+#pantone-2350-XGC a:hover
+{
+    color: RGB(180, 33, 33)
+}
+
+#pantone-711-C a:hover
+{
+    color: RGB(203, 44, 48);
+}
+
+#pantone-cool-gray-5c a:hover
+{
+    color: RGB(177, 179, 179);
+}
+
+#pantone-165-C a:hover
+{
+    color: RGB(255, 103, 31);
+}
+
+#pantone-2473-CP a:hover
+{
+    color: RGB(198, 187, 188);
+}
+
+#pantone-175-CP a:hover
+{
+    color: RGB(119, 64, 46);
+}
+
+#pantone-168-C a:hover
+{
+    color: RGB(115, 56, 29);
+}
+

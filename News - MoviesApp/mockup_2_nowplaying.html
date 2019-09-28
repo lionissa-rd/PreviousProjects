@@ -1,0 +1,64 @@
+<!--
+<div class = "container" ng-controller = "dataTable">
+        <div class = "row">
+            <table class = "table col-md-12">
+                <thead>
+                    <tr>
+                        <th scope = "col">Poster</th>
+                        <th scope = "col">Title</th>
+                        <th scope = "col">Release Date</th>
+                        <th scope = "col">Detail</th>
+                    </tr>
+                </thead>
+                
+                <tbody> 
+                    <tr ng-repeat = "movie in moviesLi track by $index">
+                        <td><img ng-src = 'http://image.tmdb.org/t/p/w500/{{movie.poster_path}}' alt = '{{movie.title}}'/></td>
+                        <td>{{movie.title}}</td>
+                        <td>{{movie.release_date}}</td>
+                        <td>{{movie.overview}} <br> <br>
+                            <button type = "button" class = "btn btn-info btn-md" aria-label = "Left Align" ng-click = "getMoviesDetail(movie.id)"> <span class = "fa fa-info" aria-hidden = "true">  Details</span>
+                            </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</div>
+
+-->
+
+<nav class = "navbar navbar-inverse navbar-static-top">
+        <div class = "container">
+            <p class = "navbar-brand"><strong>ninety nine percent movies</strong></p>
+            <ul class = "nav navbar-nav navbar-right">
+                <li><a href = "/nowplaying">Now Playing</a></li>
+                <li><a href = "/aboutme">About Me</a></li>
+                <li><a href = "/logout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class = "jumbotron">
+        <h1 class = "text-center">ninety nine percent movies</h1>
+    </div>
+
+<div class = "container" ng-controller = "dataTable">
+    <div class = "row">
+        <div class = "col-sm-6 col-md-4" ng-repeat = "movie in moviesLi track by $index">
+            <div class = "thumbnail">
+                <img ng-src = 'http://image.tmdb.org/t/p/w500/{{movie.poster_path}}' alt = '{{movie.title}}' style = "height: 525px; width: 350px;"/>
+                <div class = "caption">
+                    <h3 style = "font-size: 15px;"><strong>{{movie.title}}</strong></h3>
+                    <h4>{{movie.release_date}}</h4>
+                    <p><button type = "button" class = "btn btn-info" aria-label = "Left Align" ng-click = "getMoviesDetail(movie.id)" id = "mockupbutton"> <span class = "fa fa-info" aria-hidden = "true">  Details</span></button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div id = "customfooter">
+        <h6 style = "margin-top: 250px;">made with love by <em>lionissa r.d</em>.<br>powered by AngularJS and Bootstrap - 2018</h6>
+    </div>
+</footer>

@@ -1,0 +1,77 @@
+<!--
+    What to display:
+        -title {{movie.title}}
+        -release date {{movie.release_date}}
+        -description {{movie.overview}}
+        -budget {{movie.budget}}
+        -producing company
+-->
+
+<nav class = "navbar navbar-inverse navbar-static-top">
+        <div class = "container">
+            <p class = "navbar-brand"><strong>ninety nine percent movies</strong></p>
+            <ul class = "nav navbar-nav navbar-right">
+                <li><a href = "/nowplaying">Now Playing</a></li>
+                <li><a href = "/aboutme">About Me</a></li>
+                <li><a href = "/logout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class = "jumbotron">
+        <h1 class = "text-center">ninety nine percent movies</h1>
+    </div>
+
+<div class = "container" ng-controller = "dataDetail">
+    <div class = "row">
+        <div class = "col-md-4">
+            <img ng-src = 'http://image.tmdb.org/t/p/w780/{{movieDetails.poster_path}}' alt = '{{movieDetails.title}}' style = "padding: 15px; margin-top: 20px;"/>
+        </div>
+
+        <div class = "col-md-2">
+
+        </div>
+
+        <div class = "col-md-6" id = "moviedetailspage">
+            <h2 id = "movietitle"><strong>{{movieDetails.title}}</strong></h2>
+            <hr><br>
+                <ul>
+                    <li>
+                        <strong>Release Date:</strong><br>
+                        {{movieDetails.release_date}}
+                    </li>
+                    <br>
+        
+                    <li>
+                        <strong>Overview:</strong><br>
+                        {{movieDetails.overview}}
+                    </li>
+                    <br>
+        
+                    <li>
+                        <strong>Budget: </strong><br>
+                        {{movieDetails.budget}}
+                    </li>
+                    <br>
+        
+                    <li>
+                        <strong>Production Company: </strong>
+                        <ul ng-repeat = "movie in movieDetails.production_companies track by $index">
+                            <li>{{movieDetails.production_companies[$index].name}}</li>
+                        </ul>
+                    </li>
+                    <br>
+                </ul>
+        
+                <button type = "button" class = "btn btn-info btn-md" aria-label = "Left Align" ng-click = "returnBack()" id = "mockupbutton"> <span class = "fa fa-reply" aria-hidden = "true">  Return to Now Playing List</span>
+                </button> 
+        </div>
+    </div>
+        
+</div>
+
+<footer>
+    <div id = "customfooter">
+        <h6 style = "margin-top: 250px;">made with love by <em>lionissa r.d</em>.<br>powered by AngularJS and Bootstrap - 2018</h6>
+    </div>
+</footer>
