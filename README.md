@@ -14,5 +14,6 @@
  
  **BloodHero** is a group project for a final assignment. BloodHero is a hybrid application that is intended to be used for searching blood donors by using GPS to search for nearby available donors as well as tracking donor history.
   > using Ionic as the main framework for the front-end and written on JavaScript for back-end
-  > visit the [frontend](https://gitlab.com/vincent_anderson/neo_bloodhero "Front-end of BloodHero") and the [backend](https://gitlab.com/lionissa-rd/neo_bloodhero_back "Back-end of BloodHero")
+  >
+  >> visit the [frontend](https://gitlab.com/vincent_anderson/neo_bloodhero "Front-end of BloodHero") and the [backend](https://gitlab.com/lionissa-rd/neo_bloodhero_back "Back-end of BloodHero")
   
